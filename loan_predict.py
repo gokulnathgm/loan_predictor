@@ -41,4 +41,4 @@ model = LogisticRegression()
 model.fit(X_train, y_train)
 
 print model.score(X_test, y_test)
-print model.predict(X_test)
+print model.predict(df_test)
